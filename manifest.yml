@@ -1,0 +1,8 @@
+---
+applications:
+- name: hello-python-travis
+  memory: 128M
+  buildpack: python_buildpack
+  domain: cfapps.io
+  command: python hello.py
+  timeout: 20
