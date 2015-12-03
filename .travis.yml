@@ -1,0 +1,11 @@
+deploy:
+  provider:
+    provider: cloudfoundry
+  api: https://api.run.pivotal.io
+  username: jonas.rosland@emc.com
+  password:
+    secure: CpHMcVasUOR7XDFpe2L+FNb3WO0DqtqGPDGeueFzygEoKbrYyIQocTX7vXEDdy1NeKGH2VZdzxdS7jE+sxBMt6FsGl6eEi6n+dc5fT+QNLXh+5Gh6lsWoErHlUatyGz99HJAeTDxjjCSIViNDlSR4mOFJnboF+UehzatGcFtndj5JJXHPF5x8fWVHCQbtYamGxuHNHc8E2JhdjaMm40YTLWoR26e1AWdTN60qFThsQEoRa5QXH2jHDSWbAykWiY4IuYLKAyBSQUbItzLoGCe/h/f23m94g97neZQ8CBfYhj97fp9KdcReNVjS3hJcKYcW6mX0izcOFuLvI0+CNsgr+E5h3U3zqm1dJmMXLBhRmmjMIOleXNNKmRpbmWZWoYW2wthGYwY83yNbY26JUL947WMrp1h3X+YX+gn3EhmWrUgw4tCYGpd+4m9tOAMtRjNSLpTMFRkJ3yE0ZVoZIZbndMQRFnH3srdXaTlQTvcec7OjkKZDOSxCn9Wd1IzQWFjWcyF9AJACrt5LjK9cS84F6O8Rt9kS8iH4ntSmUaXEHNoO5iX5n5503Wnqi6yyzAG782ieQ/kLkcrVOmyLDZLk7gZKcz1ak9xxHbbZ6ZmBwnX0iGedV7MRdfWdsxD19V8RPZ3N/kjYJATa15s40cPSxgL+apRtCERPv6slcMHVrE=
+  organization: emcdevopsclass
+  space: development
+  on:
+    repo: jonasrosland/hello-python
