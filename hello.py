@@ -7,8 +7,8 @@ app = Flask(__name__)
 my_uuid = str(uuid.uuid1())
 BLUE = "#0099FF"
 GREEN = "#33CC33"
-
-COLOR = GREEN
+PINK = "#ffc0cb"
+COLOR = PINK
 
 @app.route('/')
 def hello():
